@@ -991,3 +991,31 @@ _shutDownStack=   在 System.Environment.GetStackTrace(Exception e, Boolean need
    在 System.Threading.ThreadPoolWorkQueue.Dispatch()
  2016-12-28 15:22:29,984 [P13568/D13/T34] INFO  umbraco.BusinessLogic.Log - Log scrubbed.  Removed all items older than 2016-12-27 15:22:29
  2016-12-28 15:40:49,729 [P13568/D13/T114] INFO  Umbraco.Core.Logging.OwinLogger - Event Id: 0, state: User logged will be logged out due to timeout: 12833318@qq.com, IP Address: ::1
+ 2016-12-28 16:35:11,383 [P13568/D13/T125] INFO  Umbraco.Core.MainDom - Stopping...
+ 2016-12-28 16:35:11,386 [P13568/D13/T125] INFO  Umbraco.Core.MainDom - Released MainDom.
+ 2016-12-28 16:35:11,394 [P13568/D13/T125] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Terminating
+ 2016-12-28 16:35:11,394 [P13568/D13/T125] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Waiting for tasks to complete
+ 2016-12-28 16:35:11,395 [P13568/D13/T125] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Terminating
+ 2016-12-28 16:35:11,395 [P13568/D13/T125] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Waiting for tasks to complete
+ 2016-12-28 16:35:11,395 [P13568/D13/T125] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Terminating
+ 2016-12-28 16:35:11,395 [P13568/D13/T125] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Waiting for tasks to complete
+ 2016-12-28 16:35:11,395 [P13568/D13/T125] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Terminating
+ 2016-12-28 16:35:11,395 [P13568/D13/T125] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Waiting for tasks to complete
+ 2016-12-28 16:35:11,395 [P13568/D13/T125] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Terminating
+ 2016-12-28 16:35:11,395 [P13568/D13/T125] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Waiting for tasks to complete
+ 2016-12-28 16:35:11,397 [P13568/D13/T34] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [LogScrubber] Tasks completed, terminated
+ 2016-12-28 16:35:11,397 [P13568/D13/T109] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [Umbraco.Web.Scheduling.IBackgroundTask] Tasks completed, terminated
+ 2016-12-28 16:35:11,397 [P13568/D13/T176] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [KeepAlive] Tasks completed, terminated
+ 2016-12-28 16:35:11,397 [P13568/D13/T135] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledPublishing] Tasks completed, terminated
+ 2016-12-28 16:35:11,399 [P13568/D13/T134] INFO  Umbraco.Web.Scheduling.BackgroundTaskRunner - [ScheduledTasks] Tasks completed, terminated
+ 2016-12-28 16:35:41,401 [P13568/D13/T34] INFO  Umbraco.Core.UmbracoApplicationBase - Application shutdown. Details: ConfigurationChange
+
+_shutDownMessage=IIS configuration change
+HostingEnvironment initiated shutdown
+HostingEnvironment 导致关闭
+
+_shutDownStack=   在 System.Environment.GetStackTrace(Exception e, Boolean needFileInfo)
+   在 System.Environment.get_StackTrace()
+   在 System.Web.Hosting.HostingEnvironment.InitiateShutdownInternal()
+   在 System.Web.Hosting.HostingEnvironment.InitiateShutdownWithoutDemand()
+   在 System.Web.Hosting.PipelineRuntime.StopProcessing()
